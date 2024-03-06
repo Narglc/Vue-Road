@@ -1,6 +1,6 @@
 <template>
     <h3>方法事件处理器</h3>
-    <button @dblclick="addCount">Add</button>
+    <button @dblclick="addCount">double click to Add</button>
     <p>您点击了 {{ count }} 次! </p>
 </template>
 
