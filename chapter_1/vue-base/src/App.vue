@@ -8,6 +8,7 @@ import EventFuncDemo from './components/EventFuncDemo.vue'
 import EventArgsDemo from './components/EventArgsDemo.vue'
 import EventFuncArgsDemo from './components/EventFuncArgsDemo.vue'
 import EventModifier from './components/EventModifier.vue'
+import ArrayList from './components/ArrayList.vue'
 </script>
 
 <template>
@@ -21,4 +22,5 @@ import EventModifier from './components/EventModifier.vue'
 
   <EventFuncArgsDemo />
   <EventModifier />
+  <ArrayList />
 </template>
