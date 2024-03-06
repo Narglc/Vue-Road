@@ -9,6 +9,7 @@ import EventArgsDemo from './components/EventArgsDemo.vue'
 import EventFuncArgsDemo from './components/EventFuncArgsDemo.vue'
 import EventModifier from './components/EventModifier.vue'
 import ArrayList from './components/ArrayList.vue'
+import ComputeAttr from './components/ComputeAttr.vue'
 </script>
 
 <template>
@@ -18,9 +19,11 @@ import ArrayList from './components/ArrayList.vue'
   <KeyDemo />
   <EventInlineDemo />
   <EventFuncDemo />
-  <EventArgsDemo /> -->
+  <EventArgsDemo />
 
   <EventFuncArgsDemo />
   <EventModifier />
-  <ArrayList />
+  <ArrayList /> -->
+
+  <ComputeAttr />
 </template>
