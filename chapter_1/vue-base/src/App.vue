@@ -6,14 +6,17 @@ import KeyDemo from './components/KeyDemo.vue'
 import EventInlineDemo from './components/EventInlineDemo.vue'
 import EventFuncDemo from './components/EventFuncDemo.vue'
 import EventArgsDemo from './components/EventArgsDemo.vue'
+import EventFuncArgsDemo from './components/EventFuncArgsDemo.vue'
 </script>
 
 <template>
   <!-- <ListDemo />
   <IfDemo />
   <AttrBind />
-  <KeyDemo /> -->
+  <KeyDemo />
   <EventInlineDemo />
   <EventFuncDemo />
-  <EventArgsDemo />
+  <EventArgsDemo /> -->
+
+  <EventFuncArgsDemo />
 </template>
