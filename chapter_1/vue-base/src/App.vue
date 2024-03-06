@@ -7,6 +7,7 @@ import EventInlineDemo from './components/EventInlineDemo.vue'
 import EventFuncDemo from './components/EventFuncDemo.vue'
 import EventArgsDemo from './components/EventArgsDemo.vue'
 import EventFuncArgsDemo from './components/EventFuncArgsDemo.vue'
+import EventModifier from './components/EventModifier.vue'
 </script>
 
 <template>
@@ -19,4 +20,5 @@ import EventFuncArgsDemo from './components/EventFuncArgsDemo.vue'
   <EventArgsDemo /> -->
 
   <EventFuncArgsDemo />
+  <EventModifier />
 </template>
