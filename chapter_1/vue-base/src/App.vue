@@ -11,6 +11,7 @@ import EventModifier from './components/EventModifier.vue'
 import ArrayList from './components/ArrayList.vue'
 import ComputeAttr from './components/ComputeAttr.vue'
 import ClassBind from './components/ClassBind.vue'
+import StyleBind from './components/StyleBind.vue'
 </script>
 
 <template>
@@ -59,6 +60,10 @@ import ClassBind from './components/ClassBind.vue'
 
     <div class="borderline">
       <ClassBind />
+    </div>
+
+    <div class="borderline">
+      <StyleBind />
     </div>
   </div>
 </template>
