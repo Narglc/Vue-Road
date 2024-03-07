@@ -10,14 +10,15 @@ import EventFuncArgsDemo from './components/EventFuncArgsDemo.vue'
 import EventModifier from './components/EventModifier.vue'
 import ArrayList from './components/ArrayList.vue'
 import ComputeAttr from './components/ComputeAttr.vue'
+import ClassBind from './components/ClassBind.vue'
 </script>
 
 <template>
   <div class="box">
-    <div class="borderline">
+    <!-- <div class="borderline">
       <ListDemo />
     </div>
-    
+
     <div class="borderline">
       <IfDemo />
     </div>
@@ -54,6 +55,10 @@ import ComputeAttr from './components/ComputeAttr.vue'
     </div>
     <div class="borderline">
       <ComputeAttr />
+    </div> -->
+
+    <div class="borderline">
+      <ClassBind />
     </div>
   </div>
 </template>
@@ -64,13 +69,13 @@ import ComputeAttr from './components/ComputeAttr.vue'
   flex-wrap: wrap;
 }
 
-.borderline{
-  border:1px solid #000
+.borderline {
+  border: 1px solid #000
 }
 
 .keyinfo {
-    color:red;
-    font-size: large;
-    background-color:aqua;
+  color: red;
+  font-size: large;
+  background-color: aqua;
 }
 </style>
