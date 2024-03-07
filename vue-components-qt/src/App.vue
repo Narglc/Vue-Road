@@ -5,13 +5,13 @@
 </template>
 
 <script>
-import Header from "./pages/Header.vue"
+// import Header from "./pages/Header.vue"
 import Main from "./pages/Main.vue"
 import Aside from "./pages/Aside.vue"
 
 export default {
   components: {
-    Header,
+    // Header,
     Main,
     Aside
   }
