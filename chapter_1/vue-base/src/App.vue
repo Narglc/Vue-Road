@@ -12,6 +12,7 @@ import ArrayList from './components/ArrayList.vue'
 import ComputeAttr from './components/ComputeAttr.vue'
 import ClassBind from './components/ClassBind.vue'
 import StyleBind from './components/StyleBind.vue'
+import WatchDemo from './components/WatchDemo.vue'
 </script>
 
 <template>
@@ -64,6 +65,10 @@ import StyleBind from './components/StyleBind.vue'
 
     <div class="borderline">
       <StyleBind />
+    </div>
+
+    <div class="borderline">
+      <WatchDemo />
     </div>
   </div>
 </template>
