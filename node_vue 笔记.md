@@ -43,3 +43,9 @@ npm run dev
 
 ### 开发环境
 推荐：`vscode` + `volar`插件.
+
+
+----
+
+## 页面布局
+[Flex 布局教程：实例篇](https://www.ruanyifeng.com/blog/2015/07/flex-examples.html)

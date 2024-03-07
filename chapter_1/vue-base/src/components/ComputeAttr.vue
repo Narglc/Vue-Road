@@ -6,8 +6,8 @@
         <p>事件方法methods结果:{{ itbaizhanContent }}</p>
         <p>两种方法效果相同，重点区别：</p>
         <ul>
-            <li> 计算属性： 计算属性值会基于响应式依赖被<font color="red">缓存</font>，一个计算属性机会在其响应式依赖更新时才重新计算</li>
-            <li> 方法：方法调用<font color="red">总是</font>会在重渲染发生时再次执行函数</li>
+            <li> 计算属性： 计算属性值会基于响应式依赖被<b class="keyinfo">缓存</b>，一个计算属性机会在其响应式依赖更新时才重新计算</li>
+            <li> 方法：方法调用<b class="keyinfo">总是</b>会在重渲染发生时再次执行函数</li>
         </ul>
 
     </div>

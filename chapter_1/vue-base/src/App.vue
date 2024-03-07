@@ -13,17 +13,64 @@ import ComputeAttr from './components/ComputeAttr.vue'
 </script>
 
 <template>
-  <!-- <ListDemo />
-  <IfDemo />
-  <AttrBind />
-  <KeyDemo />
-  <EventInlineDemo />
-  <EventFuncDemo />
-  <EventArgsDemo />
+  <div class="box">
+    <div class="borderline">
+      <ListDemo />
+    </div>
+    
+    <div class="borderline">
+      <IfDemo />
+    </div>
 
-  <EventFuncArgsDemo />
-  <EventModifier />
-  <ArrayList /> -->
+    <div class="borderline">
+      <AttrBind />
+    </div>
 
-  <ComputeAttr />
+    <div class="borderline">
+      <KeyDemo />
+    </div>
+
+    <div class="borderline">
+      <EventInlineDemo />
+    </div>
+
+    <div class="borderline">
+      <EventFuncDemo />
+    </div>
+
+    <div class="borderline">
+      <EventArgsDemo />
+    </div>
+
+    <div class="borderline">
+      <EventFuncArgsDemo />
+    </div>
+
+    <div class="borderline">
+      <EventModifier />
+    </div>
+    <div class="borderline">
+      <ArrayList />
+    </div>
+    <div class="borderline">
+      <ComputeAttr />
+    </div>
+  </div>
 </template>
+
+<style>
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.borderline{
+  border:1px solid #000
+}
+
+.keyinfo {
+    color:red;
+    font-size: large;
+    background-color:aqua;
+}
+</style>

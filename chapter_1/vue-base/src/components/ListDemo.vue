@@ -9,7 +9,7 @@
     <div>复杂数据：
         <div v-for="(item, index) in result">
             <p>{{ index }} - {{ item.title }}</p>
-            <img :src="item.avator" :alt="item.id">
+            <img :src="item.avator" :alt="item.id" width="200">
         </div>
     </div>
 
@@ -28,17 +28,17 @@ export default {
                 {
                     "id": 2012,
                     "title": "海蒂和爷爷",
-                    "avator": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2554525534.webp"
+                    "avator": "/src/assets/cxk_1.jpg",
                 },
                 {
                     "id": 2023,
                     "title": "怪物",
-                    "avator": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2890005059.webp",
+                    "avator": "/src/assets/cxk_2.jpg",
                 },
                 {
                     "id": 2024,
                     "title": "小偷家族",
-                    "avator": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2530599636.webp",
+                    "avator": "/src/assets/jgylz.jpg",
                 },
             ],
             userInfo: {
