@@ -13,6 +13,8 @@ import ComputeAttr from './components/ComputeAttr.vue'
 import ClassBind from './components/ClassBind.vue'
 import StyleBind from './components/StyleBind.vue'
 import WatchDemo from './components/WatchDemo.vue'
+import ModelBind from './components/ModelBind.vue'
+
 </script>
 
 <template>
@@ -69,6 +71,10 @@ import WatchDemo from './components/WatchDemo.vue'
 
     <div class="borderline">
       <WatchDemo />
+    </div>
+
+    <div class="borderline">
+      <ModelBind />
     </div>
   </div>
 </template>
