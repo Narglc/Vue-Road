@@ -14,6 +14,7 @@ import ClassBind from './components/ClassBind.vue'
 import StyleBind from './components/StyleBind.vue'
 import WatchDemo from './components/WatchDemo.vue'
 import ModelBind from './components/ModelBind.vue'
+import TempRef from './components/TempRef.vue'
 
 </script>
 
@@ -75,6 +76,10 @@ import ModelBind from './components/ModelBind.vue'
 
     <div class="borderline">
       <ModelBind />
+    </div>
+
+    <div class="borderline">
+      <TempRef />
     </div>
   </div>
 </template>
