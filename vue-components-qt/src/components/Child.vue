@@ -30,6 +30,6 @@ export default {
 
 <style scoped>
 .container {
-    border: 5px dotted red;
+    border: 5px dashed red;
 }
 </style>
