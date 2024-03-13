@@ -7,6 +7,9 @@
 import Parent from './components/Parent.vue';
 
 export default{
+  provide:{
+    message:"爷爷的财产"
+  },
   components:{
     Parent
   },
