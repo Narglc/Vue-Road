@@ -1,8 +1,10 @@
 <template>
   <!-- <UserComp></UserComp> -->
   <button @click="changeTab">切换组件</button>
-  <component :is="tabComp"></component>
-
+  <!-- 组件保活,不被卸载 -->
+  <keep-alive>
+    <component :is="tabComp"></component>
+  </keep-alive>
 </template>
 
 <script>
