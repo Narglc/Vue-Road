@@ -47,5 +47,16 @@ npm run dev
 
 ----
 
+## 插槽基础知识
+![插槽知识](./pics/slot.png)
+
+
+----
+
 ## 页面布局
 [Flex 布局教程：实例篇](https://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
+
+----
+
+## CSS 参考
+[CSS 菜鸟教程](https://www.runoob.com/css/css-navbar.html)
