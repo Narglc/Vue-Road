@@ -46,10 +46,18 @@ npm run dev
 
 
 ----
+### 通用缩写
+```
+v-bind      :
+v-on        @
+v-slot      #
+```
+
+----
 
 ## 插槽基础知识
 ![插槽知识](./pics/slot.png)
-
+![具名插槽](./pics/slot_name.png)
 
 ----
 
