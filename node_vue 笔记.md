@@ -59,6 +59,10 @@ v-slot      #
 ![插槽知识](./pics/slot.png)
 ![具名插槽](./pics/slot_name.png)
 
+
+## 组件生命周期
+![组件的生命周期](./pics/comp_life.png)
+
 ----
 
 ## 页面布局
