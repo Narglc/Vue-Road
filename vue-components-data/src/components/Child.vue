@@ -4,12 +4,16 @@
     <p>从祖父组件传递过来的数据: {{ title }}</p>
     <p>从爷爷那里继承过来的东西: {{ message }}</p>
     <p>本地data的数据: {{ fullMessage }}</p>
+    <p>全局数据: {{ globalData }}</p>
 </template>
 
 <script>
 export default{
     inject:{
         message:{
+            type:String
+        },
+        globalData:{
             type:String
         }
     },

@@ -12,6 +12,11 @@ export default{
   // },
   provide(){
     // 使用函数的形式，可以访问到this数据
+    // 注意: 
+    //    1. provide 和 injec 只能由上到下的传递
+    //    2. 除了在一个组件中提供依赖, 我们还可以在整个应用层面提供依赖 (即在 main.js 中使用 provide)
+    //        const app = creatApp({})
+    //        app.provide("message-key","hello-val")
     return{
       message: this.otherData
     }
