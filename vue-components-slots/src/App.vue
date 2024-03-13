@@ -14,8 +14,14 @@
     </template>
   </SlotTwo> -->
 
-  <SlotAttr v-slot="slotProps">
-    <h3>{{ currentText }} - {{ slotProps.msg }}</h3>
+  <SlotAttr>
+    <template #nameSlot="nameSlotProps">
+      <h3>{{ currentText }} - {{ nameSlotProps.msg }}</h3>
+    </template>
+    <template #main="slotProps">
+      <p> {{ slotProps.job }}</p>
+    </template>
+    
   </SlotAttr>
 </template>
 
