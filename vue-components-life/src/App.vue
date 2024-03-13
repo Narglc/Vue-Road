@@ -8,10 +8,20 @@
 </template>
 
 <script>
+
+import { defineAsyncComponent} from 'vue'
+
 import UserComp from "./components/UserComp.vue";
 
 import CompA from "./components/CompA.vue";
-import CompB from "./components/CompB.vue";
+
+// import CompB from "./components/CompB.vue";
+
+// CompB 改为 异步加载组件
+const CompB = defineAsyncComponent(() =>
+  import("./components/CompB.vue")
+)
+
 
 export default{
   data(){
