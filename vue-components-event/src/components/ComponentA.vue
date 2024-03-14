@@ -22,4 +22,5 @@ export default{
             this.messageFromSon = data
         }
     }
-}</script>
+}
+</script>

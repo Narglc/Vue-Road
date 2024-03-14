@@ -1,28 +1,30 @@
 <template>
-  <!-- <Header />
-  <Main />
-  <Aside /> -->
-  <!-- <Parent /> -->
-  <CompontentA/>
+  <button @click="changTabComp">切换父组件</button>
+  <component :is="tabCompList[count]"></component>
 </template>
 
 <script>
-// import Header from "./pages/Header.vue"
-// import Main from "./pages/Main.vue"
-// import Aside from "./pages/Aside.vue"
+import View from "./pages/View.vue"
 
-// import Parent from './components/Parent.vue';
-// import Child from './components/Child.vue';
+import Parent from './components/Parent.vue';
 
 import CompontentA from './components/ComponentA.vue'
 
 export default {
+  data(){
+    return{
+      tabCompList:["View","Parent","CompontentA"],
+      count:0
+    }
+  },
+  methods:{
+    changTabComp(){
+      this.count = (this.count + 1) % this.tabCompList.length
+    }
+  },
   components: {
-    // Header,
-    // Main,
-    // Aside
-    // Parent,
-    // Child
+    View,
+    Parent,
     CompontentA
   }
 }

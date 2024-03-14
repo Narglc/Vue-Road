@@ -15,4 +15,5 @@ export default{
         title:String,
         onEvent:Function
     }
-}</script>
+}
+</script>

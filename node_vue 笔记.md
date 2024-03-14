@@ -96,6 +96,13 @@ app.mount('#app')
 
 ```
 
+### import 导入方式
+```js
+import { useRouter } from 'vue-router'
+import Header from '@/components/Header.vue'
+```
+> 使用**命名导入**可以选择性地导入模块中的特定成员，并使用花括号将它们括起来，而**默认导入**则导入模块的默认成员，并可以自定义导入成员的名称。
+
 
 ----
 
